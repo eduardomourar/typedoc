@@ -4,6 +4,8 @@ title: Changelog
 
 ## Unreleased
 
+## v0.27.4 (2024-12-09)
+
 ### Features
 
 -   API: Introduced new `Converter.EVENT_CREATE_PROJECT` event which fires when a project is created by the converter, #2800.
@@ -13,6 +15,8 @@ title: Changelog
 -   Switch from gzip to deflate for compressing assets to make output consistent across different operating systems, #2796.
 -   `@include` and `@includeCode` now work for comments on the entry point for projects with a single entry point, #2800.
 -   Cascaded modifier tags will no longer be copied into type literals, #2802.
+-   `@summary` now works to describe functions within modules, #2803.
+-   Corrected navigation showing module link as current when not on module page, #2805.
 
 ## v0.27.3 (2024-12-04)
 
